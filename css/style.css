@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #000000;
     --color-heading:#ffffff;
     --color-base:#4972a4;
     --color-base2:#b18cd1;
@@ -12,7 +11,6 @@
 
 body{
     background-color: var(--color-base2);
-    /* color: var(--color-body); */
     font-family: var(--font-base), sans-serif;
 }
 
@@ -23,49 +21,7 @@ body, html {
     padding: 0;
 }
 
-.full-height-section {
-    height: 82.8vh;
-}
-.full-height-sections {
-    height: 100vh;
-}
-.service-section{
-    height: 90vh;
-}
-.skill-item{
-    margin-bottom: 27px;
-    color: rgb(195, 195, 57);
-}
-#contact-section{
-    background-color: slategray;
-}
-.h1-responsive{
-    padding-top: 25px;
-}
-.my-name{
-    color: var(--color-heading);
-    font-style: var(--font-base);
-    font-weight: 600;
-    font-size: 40px;
-
-}
-
-h1{
-    color: var(--color-heading);
-    font-weight: 700;
-    font-size: 70px;
-}
-.icon {
-    width: 35px; 
-    height: 35px; 
-    float: left;
-}
-.circle-img{
-    margin-top: 25px;
-    width: 180px;
-    height: 180px;
-    border: 6px groove var(--color-base2);
-}
+/* Navbar */
 
 .navbar .nav-link.active{
     color :#000000
@@ -106,27 +62,24 @@ transform: scaleX(.7);
 .navbar-brand{
     font-weight: bold;
     color: white;
-    
 }
 
-.black-blast{
-    width: 1800px;
-    height: 800px;
-    padding-bottom:250px;
-    padding-right: 50px;
+/*      navbar        */
 
-}
-.saj{
-    padding-top: 52px;
-    width: 90%;
-    filter: brightness(0.8);
+/* Home section */
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
 }
 
-.quali-section{
-    background-color: rgb(203, 198, 205);
-}
-.skill-section{
-    background-color: #000000;
+.my-name{
+    color: var(--color-heading);
+    font-style: var(--font-base);
+    font-weight: 600;
+    font-size: 40px;
+
 }
 .full-stack{
     font-size: 50px;
@@ -140,7 +93,6 @@ transform: scaleX(.7);
     animation-delay: 2s;
 
 }
-
 .hi1{
     float: right;
     padding-right: 250px;
@@ -183,8 +135,7 @@ transform: scaleX(.7);
     bottom: 0;
     margin-bottom: 17px;
     background-color: #ffffff;
-    border-radius: 100px;
-    
+    border-radius: 100px; 
 }
 .social-logo{
     width: 35px;
@@ -211,17 +162,91 @@ transform: scaleX(.7);
     transform: scale(1) translate(-40%, 0%);
     z-index: -1;
 }
-.skill-set{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
+.icon {
+    width: 35px; 
+    height: 35px; 
+    float: left;
+}
+.circle-img{
+    margin-top: 25px;
+    width: 180px;
+    height: 180px;
+    border: 6px groove var(--color-base2);
+}
+
+.black-blast{
+    width: 1800px;
+    height: 800px;
+    padding-bottom:250px;
+    padding-right: 50px;
+
+}
+.saj{
+    padding-top: 52px;
+    width: 90%;
+    filter: brightness(0.8);
+}
+.full-height-section {
+    height: 82.8vh;
+}
+
+/* Home section */
+
+/* Qualification section */
+
+
+.quali-section{
+    background-color: rgb(203, 198, 205);
 }
 .quali{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.card-img-top{
-    width: 500;
-    height: 500;
+
+
+/* Qualification section */
+
+
+/* Skill section */
+
+.skill-item{
+    margin-bottom: 27px;
+    color: rgb(195, 195, 57);
 }
+.skill-section{
+    background-color: #000000;
+}
+
+.skill-set{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Skill section */
+
+
+/* Project Section */
+
+.card{
+    margin: 10px;
+    
+}
+.card-img-top{
+   
+}
+
+/* Project Section */
+
+/* Contact Section */
+
+#contact-section{
+    background-color: slategray;
+}
+.h1-responsive{
+    padding-top: 25px;
+}
+
+/* Contact Section */
+
+
 /* KEYFRAME */
 
 @keyframes hover-animation {
@@ -257,13 +282,8 @@ transform: scaleX(.7);
     }
 }
 
-
-
 @media (max-width: 767px) {
     .my-name{
       font-size: 33px;
-    }
-    .social-container{
-        
     }
   }
