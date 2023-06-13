@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
 
 :root {
+    --color-body: #ffffff;
     --color-heading:#ffffff;
     --color-base:#4972a4;
     --color-base2:#b18cd1;
@@ -101,7 +102,6 @@ transform: scaleX(.7);
 .navbar-brand{
     font-weight: bold;
     color: white;
-    
 }
 
 .black-blast{
@@ -259,6 +259,5 @@ transform: scaleX(.7);
       font-size: 33px;
     }
     .social-container{
-        
     }
   }
