@@ -139,7 +139,7 @@ transform: scaleX(.7);
 .hi1{
     float: right;
     padding-right: 250px;
-    color: transparent;
+/*     color: transparent; */
     -webkit-text-stroke: .7px var(--color-heading);
     background-image: linear-gradient(var(--color-heading),var(--color-heading));
     background-repeat: no-repeat;
