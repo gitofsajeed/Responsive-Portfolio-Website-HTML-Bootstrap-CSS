@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
 
 :root {
-<<<<<<< HEAD
-=======
-    --color-body: #ffffff;
->>>>>>> 2f331078e15ff1d1a2a4b790df9e3fae528f13d7
+    --color-body: #000000;
     --color-heading:#ffffff;
     --color-base:#4972a4;
     --color-base2:#b18cd1;
@@ -287,10 +284,7 @@ h1{
     .my-name{
       font-size: 33px;
     }
-<<<<<<< HEAD
-  }
-=======
     .social-container{
-
+        
+    }
   }
->>>>>>> 2f331078e15ff1d1a2a4b790df9e3fae528f13d7
