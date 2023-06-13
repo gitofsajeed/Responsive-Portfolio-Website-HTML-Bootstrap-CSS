@@ -139,7 +139,7 @@ transform: scaleX(.7);
 .hi1{
     float: right;
     padding-right: 250px;
-/*     color: transparent; */
+    color: transparent;
     -webkit-text-stroke: .7px var(--color-heading);
     background-image: linear-gradient(var(--color-heading),var(--color-heading));
     background-repeat: no-repeat;
@@ -234,6 +234,7 @@ transform: scaleX(.7);
 @keyframes hometext {
      0%,10%,100%{
         background-position: -33rem 0;
+        
      }
      65%,85%{
         background-position: 0 0;
