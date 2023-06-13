@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #000000;
     --color-heading:#ffffff;
     --color-base:#4972a4;
     --color-base2:#b18cd1;
@@ -65,10 +64,6 @@ h1{
     width: 180px;
     height: 180px;
     border: 6px groove var(--color-base2);
-}
-
-.navbar .nav-link.active{
-    color :#000000
 }
 
 .navbar-nav .nav-item h5 a{
